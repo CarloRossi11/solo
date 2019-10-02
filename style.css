@@ -1,0 +1,21 @@
+*{
+  box-sizing: border-box;
+  font-family:sans-serif;
+  background-color: green;
+}
+
+.Titlehead{
+  color: blue;
+  text-align: center;
+}
+
+.titletext{
+  text-align: center;
+
+}
+
+.tagged{
+  text-align: end;
+  color: pink;
+  padding-right: 10px;
+}
