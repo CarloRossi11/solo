@@ -1,21 +1,59 @@
 *{
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   font-family:sans-serif;
-  background-color: green;
 }
 
-.Titlehead{
-  color: blue;
+.hero{
+  background-image: url("design-assets/lisa-therese-ZYUfnilDZEI-unsplash.jpg");
+  background-position: top;
+  background-size: cover;
+  width: auto;
+  height: auto;
+}
+
+.titlehead{
+  color: #58A6F4;
   text-align: center;
+  padding-top: 25px;
 }
 
 .titletext{
+  color: white;
   text-align: center;
-
 }
 
+.previoustitle{
+  color: white;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.sites {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.peppers{
+  text-align: center;
+  width: 50%;
+}
+
+.haul{
+  text-align: center;
+  width: 50%;
+}
+
+
+
+
 .tagged{
-  text-align: end;
-  color: pink;
+  padding-top: 100px;
+  display: flex;
+  align-items:flex-end;
+  justify-content:flex-end;
+  color: #FF00BF;
   padding-right: 10px;
 }
