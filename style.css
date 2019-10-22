@@ -15,11 +15,13 @@
   color: #58A6F4;
   text-align: center;
   padding-top: 25px;
+  text-shadow: 0 0 4px black;
 }
 
 .titletext{
   color: white;
   text-align: center;
+  text-shadow: 0 0 4px black;
 }
 
 .previoustitle{
@@ -27,6 +29,7 @@
   text-align: center;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-shadow: 0 0 4px black;
 }
 
 .sites {
@@ -46,8 +49,36 @@
   width: 50%;
 }
 
+.waldotitle{
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 4px black;
+}
 
+.profiles{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+  padding-bottom: 30px;
+}
 
+.linkedin{
+  max-width:100px;
+  max-height:100px;
+}
+
+.github{
+  max-width:100px;
+  max-height:100px;
+}
+
+.email{
+  color: white !important;
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 0 0 4px black;
+}
 
 .tagged{
   padding-top: 100px;
