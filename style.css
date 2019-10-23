@@ -69,11 +69,15 @@
 .linkedin{
   max-width:100px;
   max-height:100px;
+  min-width: 50px;
+  min-height: 50px;
 }
 
 .github{
   max-width:100px;
   max-height:100px;
+  min-width: 50px;
+  min-height: 50px;
 }
 
 .email{
@@ -101,5 +105,23 @@
     display: block;
     margin-left: auto !important;
     margin-right: auto !important;
+  }
+  .peppers{
+    width: 100%;
+  }
+  .haul{
+    width: 100%;
+  }
+}
+
+@media (max-width:610px){
+  .profiles{
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .hero{
+    background-position: cover;
+    background-attachment: fixed;
   }
 }
