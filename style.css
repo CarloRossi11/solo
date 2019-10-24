@@ -14,7 +14,7 @@
 .titlehead{
   color: #58A6F4;
   text-align: center;
-  padding-top: 25px;
+  padding-top: 10px;
   text-shadow: 0 0 4px black;
 }
 
@@ -28,32 +28,38 @@
   color: white;
   text-align: center;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
   text-shadow: 0 0 4px black;
 }
 
 .sites {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   height: 150px;
   padding-left: 100px;
   padding-right: 100px;
 }
 
 .peppers{
-  text-align: center;
+  max-width:300px;
+  max-height:300px;
+  min-width: 50px;
+  min-height: 50px;
 }
 
 .haul{
-  text-align: center;
+  max-width:300px;
+  max-height:300px;
+  min-width: 50px;
+  min-height: 50px;
 }
 
 .waldotitle{
   color: white;
   text-align: center;
   text-shadow: 0 0 4px black;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 .profiles{
@@ -73,22 +79,18 @@
   min-height: 50px;
 }
 
-.github{
+.email{
   max-width:100px;
   max-height:100px;
   min-width: 50px;
   min-height: 50px;
 }
 
-.email{
-  color: white !important;
-  text-align: center;
-  font-size: 30px;
-  text-shadow: 0 0 4px black;
-}
-
-.emailink{
-  color: white;
+.github{
+  max-width:100px;
+  max-height:100px;
+  min-width: 50px;
+  min-height: 50px;
 }
 
 .tagged{
@@ -107,7 +109,7 @@
     margin-right: auto !important;
   }
   .peppers{
-    width: 100%;
+    width:auto;
   }
   .haul{
     width: 100%;
