@@ -4,7 +4,7 @@
 }
 
 .hero{
-  background-image: url("design-assets/luca-dugaro-tuueCVnYN0s-unsplash.jpg");
+  background-image: url("design-assets/ferdinand-stohr-iW1WzbuWMcA-unsplash.jpg");
   background-position: top;
   background-size: cover;
   width: auto;
@@ -46,6 +46,8 @@
   max-height:300px;
   min-width: 100px;
   min-height: 50px;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
 }
 
 .haul{
